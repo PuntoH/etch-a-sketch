@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ECE2D0;
+}
+
+header h1 {
+    font-family: 'Rampart One', cursive;
+    font-size: 35px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+}
+
+#sketch-container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-divs {
+    background-color: white;
+    display: flex;
+    border: #DCDCDC solid 1px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    font-family: 'Rampart One', cursive;
+}
+
+button {
+    font-size: 15px;
+    padding: 15px;
+    background-color: #D5B9B2;
+    border: #DCDCDC solid 1px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #BFB5AF;
+    cursor: pointer;
+}
